@@ -3,9 +3,9 @@ const app =express()
 const port =3000
 
 app.get('/hello', (req,res) => {
-    res.send('iam creating nodejs ready application');
+    res.send('I'm creating nodejs application');
 })
 
 app.listen(port, () => {
-    console.log("started server.....")
+    console.log("Server started.....")
 });
